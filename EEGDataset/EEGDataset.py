@@ -18,7 +18,7 @@ class FusionDataset(Dataset):
     CLASSES = ['Seizure', 'LPD']
     CHANNELS = 19
 
-    def __init__(self, ids, base_path, target_path, window_size=400, step_size=200, n_component=2, transform=None):
+    def __init__(self, ids, base_path, target_path, window_size=200, step_size=50, n_component=2, transform=None):
         self.id_list = ids
         self.base_path = base_path
         self.target_path = target_path
