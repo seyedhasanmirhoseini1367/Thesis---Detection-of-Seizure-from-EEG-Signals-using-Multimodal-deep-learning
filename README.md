@@ -2,7 +2,7 @@
 
 Seizure detection from EEG signals is a vital task in the diagnosis and management of epilepsy. This thesis presents a multimodal deep learning framework designed to classify seizures and Lateralized Periodic Discharges (LPD) from multi-channel EEG recordings. The proposed fusion model combines both temporal and spectral information by utilizing LSTM networks to process raw temporal EEG signals and CNNs to analyze time–frequency spectrograms. These modality-specific representations are then integrated using a Transformer architecture, enabling the model to capture complex cross-modal dependencies. To evaluate the effectiveness of multimodal integration, two unimodal models (LSTM→Transformer and CNN→Transformer) are also developed and compared against the fusion model. This approach provides valuable insights into how multimodal learning can enhance the accuracy and robustness of EEG-based seizure classification.
 
-🧪 Models
+
 Model 1: LSTM → Transformer
 Uses raw temporal EEG data to learn sequential patterns and passes the features to a Transformer for classification.
 ✅ Achieved 79% accuracy
