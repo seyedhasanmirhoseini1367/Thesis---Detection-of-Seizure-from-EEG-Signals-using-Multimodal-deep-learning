@@ -1,6 +1,4 @@
 
-# ========================== Filter =====================================
-
 from scipy.signal import butter, filtfilt
 
 
